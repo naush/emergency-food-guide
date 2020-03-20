@@ -1,0 +1,23 @@
+{
+  "name": "emergency-food-guide",
+  "version": "0.0.1",
+  "description": "Emergency Food Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naush/emergency-food-guide.git"
+  },
+  "author": "naush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naush/emergency-food-guide/issues"
+  },
+  "homepage": "https://github.com/naush/emergency-food-guide#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  }
+}
