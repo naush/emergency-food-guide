@@ -1,0 +1,122 @@
+[
+  {
+    "category": "grains",
+    "unit": "ounce",
+    "groups": [
+      { "gender": "f", "from_age": 2, "to_age": 3, "quantity": 3 },
+      { "gender": "f", "from_age": 4, "to_age": 8, "quantity": 5 },
+      { "gender": "m", "from_age": 2, "to_age": 3, "quantity": 3 },
+      { "gender": "m", "from_age": 4, "to_age": 8, "quantity": 5 },
+      { "gender": "f", "from_age": 9, "to_age": 13, "quantity": 5 },
+      { "gender": "f", "from_age": 14, "to_age": 18, "quantity": 6 },
+      { "gender": "m", "from_age": 9, "to_age": 13, "quantity": 6 },
+      { "gender": "m", "from_age": 14, "to_age": 18, "quantity": 8 },
+      { "gender": "f", "from_age": 19, "to_age": 30, "quantity": 6 },
+      { "gender": "f", "from_age": 31, "to_age": 50, "quantity": 6 },
+      { "gender": "f", "from_age": 51, "to_age": 200, "quantity": 5 },
+      { "gender": "m", "from_age": 19, "to_age": 30, "quantity": 8 },
+      { "gender": "m", "from_age": 31, "to_age": 50, "quantity": 7 },
+      { "gender": "m", "from_age": 51, "to_age": 200, "quantity": 6 }
+    ]
+  },
+  {
+    "category": "protein",
+    "unit": "ounce",
+    "groups": [
+      { "gender": "f", "from_age": 2, "to_age": 3, "quantity": 2 },
+      { "gender": "f", "from_age": 4, "to_age": 8, "quantity": 4 },
+      { "gender": "m", "from_age": 2, "to_age": 3, "quantity": 2 },
+      { "gender": "m", "from_age": 4, "to_age": 8, "quantity": 4 },
+      { "gender": "f", "from_age": 9, "to_age": 13, "quantity": 5 },
+      { "gender": "f", "from_age": 14, "to_age": 18, "quantity": 5 },
+      { "gender": "m", "from_age": 9, "to_age": 13, "quantity": 5 },
+      { "gender": "m", "from_age": 14, "to_age": 18, "quantity": 6.5 },
+      { "gender": "f", "from_age": 19, "to_age": 30, "quantity": 5.5 },
+      { "gender": "f", "from_age": 31, "to_age": 50, "quantity": 5 },
+      { "gender": "f", "from_age": 51, "to_age": 200, "quantity": 5 },
+      { "gender": "m", "from_age": 19, "to_age": 30, "quantity": 6.5 },
+      { "gender": "m", "from_age": 31, "to_age": 50, "quantity": 6 },
+      { "gender": "m", "from_age": 51, "to_age": 200, "quantity": 5.5 }
+    ]
+  },
+  {
+    "category": "vegetables",
+    "unit": "cup",
+    "groups": [
+      { "gender": "f", "from_age": 2, "to_age": 3, "quantity": 1 },
+      { "gender": "f", "from_age": 4, "to_age": 8, "quantity": 1.5 },
+      { "gender": "m", "from_age": 2, "to_age": 3, "quantity": 1 },
+      { "gender": "m", "from_age": 4, "to_age": 8, "quantity": 1.5 },
+      { "gender": "f", "from_age": 9, "to_age": 13, "quantity": 2 },
+      { "gender": "f", "from_age": 14, "to_age": 18, "quantity": 2.5 },
+      { "gender": "m", "from_age": 9, "to_age": 13, "quantity": 2.5 },
+      { "gender": "m", "from_age": 14, "to_age": 18, "quantity": 3 },
+      { "gender": "f", "from_age": 19, "to_age": 30, "quantity": 2.5 },
+      { "gender": "f", "from_age": 31, "to_age": 50, "quantity": 2.5 },
+      { "gender": "f", "from_age": 51, "to_age": 200, "quantity": 2 },
+      { "gender": "m", "from_age": 19, "to_age": 30, "quantity": 3 },
+      { "gender": "m", "from_age": 31, "to_age": 50, "quantity": 3 },
+      { "gender": "m", "from_age": 51, "to_age": 200, "quantity": 2.5 }
+    ]
+  },
+  {
+    "category": "fruits",
+    "unit": "cup",
+    "groups": [
+      { "gender": "f", "from_age": 2, "to_age": 3, "quantity": 1 },
+      { "gender": "f", "from_age": 4, "to_age": 8, "quantity": 1.5 },
+      { "gender": "m", "from_age": 2, "to_age": 3, "quantity": 1 },
+      { "gender": "m", "from_age": 4, "to_age": 8, "quantity": 1.5 },
+      { "gender": "f", "from_age": 9, "to_age": 13, "quantity": 1.5 },
+      { "gender": "f", "from_age": 14, "to_age": 18, "quantity": 1.5 },
+      { "gender": "m", "from_age": 9, "to_age": 13, "quantity": 1.5 },
+      { "gender": "m", "from_age": 14, "to_age": 18, "quantity": 2 },
+      { "gender": "f", "from_age": 19, "to_age": 30, "quantity": 2 },
+      { "gender": "f", "from_age": 31, "to_age": 50, "quantity": 1.5 },
+      { "gender": "f", "from_age": 51, "to_age": 200, "quantity": 1.5 },
+      { "gender": "m", "from_age": 19, "to_age": 30, "quantity": 2 },
+      { "gender": "m", "from_age": 31, "to_age": 50, "quantity": 2 },
+      { "gender": "m", "from_age": 51, "to_age": 200, "quantity": 2 }
+    ]
+  },
+  {
+    "category": "dairy",
+    "unit": "cup",
+    "groups": [
+      { "gender": "f", "from_age": 2, "to_age": 3, "quantity": 2 },
+      { "gender": "f", "from_age": 4, "to_age": 8, "quantity": 2.5 },
+      { "gender": "m", "from_age": 2, "to_age": 3, "quantity": 2 },
+      { "gender": "m", "from_age": 4, "to_age": 8, "quantity": 2.5 },
+      { "gender": "f", "from_age": 9, "to_age": 13, "quantity": 3 },
+      { "gender": "f", "from_age": 14, "to_age": 18, "quantity": 3 },
+      { "gender": "m", "from_age": 9, "to_age": 13, "quantity": 3 },
+      { "gender": "m", "from_age": 14, "to_age": 18, "quantity": 3 },
+      { "gender": "f", "from_age": 19, "to_age": 30, "quantity": 3 },
+      { "gender": "f", "from_age": 31, "to_age": 50, "quantity": 3 },
+      { "gender": "f", "from_age": 51, "to_age": 200, "quantity": 3 },
+      { "gender": "m", "from_age": 19, "to_age": 30, "quantity": 3 },
+      { "gender": "m", "from_age": 31, "to_age": 50, "quantity": 3 },
+      { "gender": "m", "from_age": 51, "to_age": 200, "quantity": 3 }
+    ]
+  },
+  {
+    "category": "oils",
+    "unit": "teaspoon",
+    "groups": [
+      { "gender": "f", "from_age": 2, "to_age": 3, "quantity": 3 },
+      { "gender": "f", "from_age": 4, "to_age": 8, "quantity": 4 },
+      { "gender": "m", "from_age": 2, "to_age": 3, "quantity": 3 },
+      { "gender": "m", "from_age": 4, "to_age": 8, "quantity": 4 },
+      { "gender": "f", "from_age": 9, "to_age": 13, "quantity": 5 },
+      { "gender": "f", "from_age": 14, "to_age": 18, "quantity": 5 },
+      { "gender": "m", "from_age": 9, "to_age": 13, "quantity": 5 },
+      { "gender": "m", "from_age": 14, "to_age": 18, "quantity": 6 },
+      { "gender": "f", "from_age": 19, "to_age": 30, "quantity": 6 },
+      { "gender": "f", "from_age": 31, "to_age": 50, "quantity": 5 },
+      { "gender": "f", "from_age": 51, "to_age": 200, "quantity": 5 },
+      { "gender": "m", "from_age": 19, "to_age": 30, "quantity": 7 },
+      { "gender": "m", "from_age": 31, "to_age": 50, "quantity": 6 },
+      { "gender": "m", "from_age": 51, "to_age": 200, "quantity": 6 }
+    ]
+  }
+]
