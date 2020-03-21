@@ -1,4 +1,4 @@
-class Servings {
+class Consumption {
   constructor(
     people,
     tables=require('./assets/tables')
@@ -24,7 +24,7 @@ class Servings {
   ofDay(days) {
     return self.tables.map((table) => {
       return {
-        category: table.category,
+        name: table.category,
         unit: table.unit,
         quantity: this.quantity(table) * days,
       }
@@ -32,4 +32,4 @@ class Servings {
   }
 }
 
-module.exports = Servings;
+module.exports = Consumption;
