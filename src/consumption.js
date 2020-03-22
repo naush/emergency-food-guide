@@ -21,12 +21,17 @@ class Consumption {
     }).reduce((a, b) => a + b);
   }
 
-  ofDay(days) {
+  ofCategory(name) {
+    return this.byCategory()
+      .find((category) => category.name === name);
+  }
+
+  byCategory() {
     return self.tables.map((table) => {
       return {
         name: table.category,
         unit: table.unit,
-        quantity: this.quantity(table) * days,
+        quantity: this.quantity(table),
       }
     });
   }

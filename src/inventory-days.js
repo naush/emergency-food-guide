@@ -12,7 +12,7 @@ class InventoryDays {
 
   calculate(stock, people) {
     const consumption = new Consumption(people);
-    const categories = consumption.ofDay(1);
+    const categories = consumption.byCategory();
 
     return categories.map((category) => {
       return {
