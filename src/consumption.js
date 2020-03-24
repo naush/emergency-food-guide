@@ -17,7 +17,7 @@ class Consumption {
         );
       });
 
-      return group.quantity;
+      return group ? group.quantity : 0;
     }).reduce((a, b) => a + b);
   }
 

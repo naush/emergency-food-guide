@@ -30,5 +30,16 @@ describe(Consumption, () => {
 
       expect(category.quantity).toEqual(9)
     });
+
+    it('handles age group not found', () => {
+      const people = [
+        {gender: 'm', age: -1,},
+      ];
+
+      const categories = new Consumption(people).byCategory();
+      const category = categories.find((category) => category.name === 'grains');
+
+      expect(category.quantity).toEqual(0)
+    });
   });
 })
